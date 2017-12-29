@@ -130,6 +130,15 @@ font:  15px Times;
 	margin-left: 50px;
 }
 
+#facebook{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+
+#facebook{
+	padding: 20px;
+	border-top: 2px solid rgba(37,154,220,0.5);
+}
 
 
 
