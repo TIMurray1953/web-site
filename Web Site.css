@@ -129,6 +129,10 @@ font:  15px Times;
 	align-items: center;
 	margin-left: 50px;
 }
+#facebook{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
 
 
 
