@@ -140,7 +140,18 @@ font:  15px Times;
 	border-top: 2px solid rgba(37,154,220,0.5);
 	
 }
+div.a {
+  text-indent: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
 
+div.b {
+  text-indent: 4em;
+}
+ul.c {
+  list-style-position: outside;
+}
 
 
 
