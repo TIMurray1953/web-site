@@ -1,0 +1,411 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	background-color: #fff;
+	font-size: 1rem;
+	max-width: 1300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 1rem;
+	line-height: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	"title1 . title2"
+	" . appIcon ."
+	" meat meat meat "
+	"line1 line1 line1"
+	" copyright copyright copyright"
+	"line2 line2 line2"
+	"directButtons directButtons directButtons"
+	"line3 line3 line3"
+	" google_badge . apple_badge"
+	"line5 line5 line5"
+	" . facebook . "
+	"line6 line6 line6"
+	"comments comments comments"
+	" . footLogo .";
+	}
+
+.coLogo{
+	grid-area: title1;
+}
+.menu{
+	grid-area: title2;
+}
+.title_icon{
+	grid-area: appIcon;
+}
+.text{
+	grid-area: meat;
+	column-span: 1 / span 3;
+}
+.copyright{
+	grid-area: copyright;
+	column-span: 1 / span 3;
+}
+.directButtons{
+	grid-area: directButtons;
+	column-span: 1 / span 3;
+}
+.google_badge{
+	grid-area: google_badge;
+}
+.apple_badge{
+	grid-area: apple_badge;
+}
+.facebook{
+	grid-area: facebook;
+}
+.comments{
+	grid-area: comments;
+	column-span: 1 / span 3;
+}
+.footerLogo{
+	grid-area: footLogo;
+}
+.divideLine1{
+	grid-area: line1;
+	column-span: 1 / span 3;
+}
+.divideLine2{
+	grid-area: line2;
+	column-span: 1 / span 3;
+}
+.divideLine3{
+	grid-area: line3;
+	column-span: 1 / span 3;
+}
+.divideLine5{
+	grid-area: line5;
+	column-span: 1 / span 3;
+}
+.divideLine6{
+	grid-area: line6;
+	column-span: 1 / span 3;
+}
+
+.menu{
+	width: 480px;
+	padding-top: 50px;
+}
+
+.homeMenuList{
+	padding-left: 15px;
+}
+
+.pPolicyMenuList{
+	padding-right: 10px;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li{
+	float: left;
+	width: 150px;
+	height: 3em;
+	background-color: #259adc;
+	text-align: left;
+	font-size: 1rem;
+	padding: 10px 10px 10px 10px;
+	text-transform: uppercase;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: #259adc;
+	color: black;
+	white-space: nowrap;
+	float: none;
+}
+
+ul li ul li{
+	width: 220px;
+	text-transform: none;
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.appsMenuList a::after{
+	content: " -> " ;
+	color: #fff;
+}
+
+.menu ul li{
+	border: 0px;
+	box-shadow: 0 1px 0 blue, 0 4px 0 blue;
+}
+
+.coLogo{
+	float: left;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+
+.text{
+	float: left;
+}
+
+.footerLogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.facebook{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.google_badge{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.apple_badge{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title_icon{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.comments{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 38%
+}
+
+.divideLine1{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine1 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+
+
+.divideLine2{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine2 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+
+
+.divideLine3{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine3 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+
+
+.divideLine5{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine5 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+
+
+.divideLine6{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine6 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+
+
+
+@media screen and (max-width: 740px){
+	
+	.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.25rem;
+	font-size: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1px;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto 70px auto 70px auto auto auto auto auto;
+	grid-template-areas: 
+	"title1"  
+	"title2"
+	"appIcon"
+	"meat"
+	"line1"
+	"copyright"
+	"line2"
+	"directButtons"
+	"line3"
+	"store_badge_google"
+	"line4"
+	"store_badge_apple"
+	"line5"
+	"facebook"
+	"line6"
+	"comments"
+	"footLogo";
+	}
+	
+	.divideLine4{
+	grid-area: line4;
+	}
+
+
+	.wrapper div{
+	background-color: #fff;
+	color: black;
+	padding: 10px;
+	font-size: 1rem;
+	}
+
+	.text{
+	grid-area: meat;
+	}
+	.copyright{
+	grid-area: copyright;
+	}
+	.directButtons{
+	grid-area: directButtons;
+	}
+	.google_badge{
+	grid-area: store_badge_google;
+	}
+	.apple_badge{
+	grid-area: store_badge_apple;
+	}
+	.google_badge{
+	padding: auto;
+	}
+	.apple_badge{
+	padding: auto;
+	}
+	
+	.comments{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.divideLine1{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine1 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine2{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine2 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine3{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine3 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine4{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine4 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+	.divideLine5{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine5 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine6{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine6 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	}
+
+
+
