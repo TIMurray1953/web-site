@@ -11,13 +11,24 @@ html{
 body{
 	background-color: #fff;
 	font-size: 1rem;
+<<<<<<< Updated upstream
 	max-width: 1300px;
+=======
+	min-width: 1300px;
+>>>>>>> Stashed changes
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .wrapper{
+<<<<<<< Updated upstream
+=======
+	display: grid;
+}
+
+.wrapper{
+>>>>>>> Stashed changes
 	width: 90%;
 	margin: 0 auto;
 	padding-top: 50px;
@@ -31,6 +42,7 @@ body{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
+<<<<<<< Updated upstream
 	"title1 . title2"
 	" meat meat meat "
 	"line line line"
@@ -44,10 +56,27 @@ body{
 
 .coLogo{
 	grid-area: title1;
+=======
+	'logo . title2'
+	'text1 text1 text1'
+	'line line line'
+	'footer1 footer1 footer1'
+	'line2 line2 line2'
+	' . footer2 .'
+	'line3 line3 line3'
+	'footer3 footer3 footer3'
+	' . footer4 .';
+}
+
+
+.coLogo{
+	grid-area: logo;
+>>>>>>> Stashed changes
 }
 .menu{
 	grid-area: title2;
 }
+<<<<<<< Updated upstream
 .text{
 	grid-area: meat;
 	column-span: 1 / span 3;
@@ -63,22 +92,54 @@ body{
 .divideLine2{
 	grid-area: line2;
 	column-span: 1 / span 3;
+=======
+.wrapper .text{
+	grid-area: text1;
+	column-span: all;
+}
+.divideLine{
+	grid-area: line;
+	column-span: all;
+}
+.theFooter{
+	grid-area: footer1;
+	column-span: all;
+}
+.divideLine2{
+	grid-area: line2;
+	column-span: all;
+>>>>>>> Stashed changes
 }
 .facebook{
 	grid-area: footer2;
 }
 .divideLine3{
 	grid-area: line3;
+<<<<<<< Updated upstream
 	column-span: 1 / span 3;
 }
 .comments-email{
 	grid-area: footer3;
 	column-span: 1 / span 3;
+=======
+	column-span: all;
+}
+.comments-email{
+	grid-area: footer3;
+	column-span: all;
+>>>>>>> Stashed changes
 }
 .footerLogo{
 	grid-area: footer4;
 }
 
+<<<<<<< Updated upstream
+=======
+.coLogo{
+	display: block;
+}
+
+>>>>>>> Stashed changes
 .menu{
 	width: 480px;
 	padding-top: 50px;
@@ -145,17 +206,24 @@ ul li:hover ul li{
 }
 
 .coLogo{
+<<<<<<< Updated upstream
 	float: left;
+=======
+>>>>>>> Stashed changes
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
 
+<<<<<<< Updated upstream
 .text{
 	float: left;
 }
 
 .the_footer{
 	float: left;
+=======
+.theFooter{
+>>>>>>> Stashed changes
 	display: block;
 }
 
@@ -212,11 +280,15 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
+<<<<<<< Updated upstream
 
 
 
 @media (max-width: 376px){
 	
+=======
+@media (min-width: 376px) and (max-width: 835px){
+>>>>>>> Stashed changes
 	.wrapper{
 	width: 90%;
 	margin: auto;
@@ -228,6 +300,7 @@ ul li:hover ul li{
 	grid-gap: 1px;
 	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
+<<<<<<< Updated upstream
 	"title1" 
 	"title2"
 	"meat"
@@ -262,6 +335,40 @@ ul li:hover ul li{
 }
 .divideLine3{
 	width: 80%;
+=======
+	'logo' 
+	'title2'
+	'text1'
+	'line' 
+	'footer1'
+	'line2'
+	'footer2'
+	'line3'
+	'footer3'
+	'footer4';
+	}
+.wrapper{
+background-color: #fff;
+color: black;
+padding: 10px;
+font-size: 1.5rem;
+}
+
+.wrapper .text{
+	width: 90%;
+}
+.theFooter{
+	width: 90%;
+}
+.divideLine{
+	width: 90%;
+}
+.divideLine2{
+	width: 90%;
+}
+.divideLine3{
+	width: 90%;
+>>>>>>> Stashed changes
 }
 
 
@@ -297,10 +404,14 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
+<<<<<<< Updated upstream
 }
 
 
 @media (max-width: 415px){
+=======
+@media (min-width: 836px) and (max-width: 1299px){
+>>>>>>> Stashed changes
 	.wrapper{
 	width: 90%;
 	margin: auto;
@@ -312,6 +423,7 @@ ul li:hover ul li{
 	grid-gap: 1px;
 	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
+<<<<<<< Updated upstream
 	"title1" 
 	"title2"
 	"meat"
@@ -414,6 +526,30 @@ ul li:hover ul li{
 	width: 90%;
 }
 .the_footer{
+=======
+	'logo' 
+	'title2'
+	'text1'
+	'line' 
+	'footer1'
+	'line2'
+	'footer2'
+	'line3'
+	'footer3'
+	'footer4';
+	}
+.wrapper{
+background-color: #fff;
+color: black;
+padding: 10px;
+font-size: 1.5rem;
+}
+
+.wrapper .text{
+	width: 90%;
+}
+.theFooter{
+>>>>>>> Stashed changes
 	width: 90%;
 }
 .divideLine{
@@ -427,7 +563,10 @@ ul li:hover ul li{
 }
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .divideLine{
 	border: transparent;
 	border-width: 80%;
@@ -460,6 +599,7 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 }
+<<<<<<< Updated upstream
 @media (max-width: 835px){
 	.wrapper{
 	width: 90%;
@@ -539,3 +679,15 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 }
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
