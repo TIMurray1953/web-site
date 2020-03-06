@@ -185,7 +185,7 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-@media (min-width: 376px) and (max-width: 835px){
+@media (max-width: 835px){
 	.wrapper{
 	width: 90%;
 	margin: auto;
