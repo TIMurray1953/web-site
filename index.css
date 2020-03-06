@@ -3,11 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
-
 html{
 	font-size: 16px;
 }
-
 body{
 	background-color: #fff;
 	font-size: 1rem;
@@ -16,11 +14,9 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .wrapper{
 	display: grid;
 }
-
 .wrapper{
 	width: 90%;
 	margin: 0 auto;
@@ -45,8 +41,6 @@ body{
 	'footer3 footer3 footer3'
 	' . footer4 .';
 }
-
-
 .coLogo{
 	grid-area: logo;
 }
@@ -83,30 +77,24 @@ body{
 .footerLogo{
 	grid-area: footer4;
 }
-
 .coLogo{
 	display: block;
 }
-
 .menu{
 	width: 480px;
 	padding-top: 50px;
 }
-
 .homeMenuList{
 	padding-left: 15px;
 }
-
 .pPolicyMenuList{
 	padding-right: 10px;
 }
-
 ul{
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
-
 ul li{
 	float: left;
 	width: 150px;
@@ -117,72 +105,58 @@ ul li{
 	padding: 10px 10px 10px 10px;
 	text-transform: uppercase;
 }
-
 ul li a{
 	text-decoration: none;
 	color: #fff;
 	display: block;
 }
-
 ul li a:hover {
 	background-color: #259adc;
 	color: black;
 	white-space: nowrap;
 	float: none;
 }
-
 ul li ul li{
 	width: 220px;
 	text-transform: none;
 	display: none;
 }
-
 ul li:hover ul li{
 	display: block;
 	position: relative;
 	z-index: 1;
 }
-
 .appsMenuList a::after{
 	content: " -> " ;
 	color: #fff;
 }
-
 .menu ul li{
 	border: 0px;
 	box-shadow: 0 1px 0 blue, 0 2px 0 blue;
 }
-
 .coLogo{
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
-
 .theFooter{
 	display: block;
 }
-
 .footerLogo{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
-
 .facebook{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
 }
-
 .comments-email{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 38%
 }
-
 .divideLine{
 	border: transparent;
 	border-width: 80%;
@@ -192,8 +166,6 @@ ul li:hover ul li{
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine2{
 	border: transparent;
 	border-width: 80%;
@@ -203,8 +175,6 @@ ul li:hover ul li{
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine3{
 	border: transparent;
 	border-width: 80%;
@@ -244,7 +214,6 @@ color: black;
 padding: 10px;
 font-size: 1.5rem;
 }
-
 .wrapper .text{
 	width: 90%;
 }
@@ -260,8 +229,6 @@ font-size: 1.5rem;
 .divideLine3{
 	width: 90%;
 }
-
-
 .divideLine{
 	border: transparent;
 	border-width: 80%;
@@ -271,8 +238,6 @@ font-size: 1.5rem;
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine2{
 	border: transparent;
 	border-width: 80%;
@@ -282,8 +247,6 @@ font-size: 1.5rem;
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine3{
 	border: transparent;
 	border-width: 80%;
@@ -323,7 +286,6 @@ color: black;
 padding: 10px;
 font-size: 1.5rem;
 }
-
 .wrapper .text{
 	width: 90%;
 }
@@ -339,8 +301,6 @@ font-size: 1.5rem;
 .divideLine3{
 	width: 90%;
 }
-
-
 .divideLine{
 	border: transparent;
 	border-width: 80%;
@@ -350,8 +310,6 @@ font-size: 1.5rem;
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine2{
 	border: transparent;
 	border-width: 80%;
@@ -361,8 +319,6 @@ font-size: 1.5rem;
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine3{
 	border: transparent;
 	border-width: 80%;
