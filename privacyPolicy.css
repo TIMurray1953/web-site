@@ -17,22 +17,22 @@ body{
 	margin-right: auto;
 }
 
-.wrapper{
-	width: 100%;
+.privacyWrapper{
+	width: 90%;
 	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 100px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: black;
-	font-size: 1rem;
+	font-size: 1.75rem;
 	line-height: 2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto auto auto auto auto auto;
 	grid-template-areas: 
 	"title1 . title2"
-	" meat meat meat "
+	"privacyMeat privacyMeat privacyMeat"
 	"line1 line1 line1"
 	"comments comments comments"
 	"line2 line2 line2"
@@ -45,24 +45,27 @@ body{
 .menu{
 	grid-area: title2;
 }
-.text{
-	grid-area: meat;
-	column-span: 1 / span 2;
+.privacyText{
+	grid-area: privacyMeat;
+	column-span: all;
+}
+.privacyText{
+		width: 100%;
 }
 .comments{
 	grid-area: comments;
-	column-span: 1 / span 3;
+	column-span: all;
 }
 .footerLogo{
 	grid-area: footLogo;
 }
 .divideLine1{
 	grid-area: line1;
-	column-span: 1 / span 3;
+	column-span: all;
 }
 .divideLine2{
 	grid-area: line2;
-	column-span: 1 / span 3;
+	column-span: all;
 }
 .menu{
 	width: 480px;
@@ -130,14 +133,14 @@ ul li:hover ul li{
 }
 
 .coLogo{
-	float: left;
+	/*float: left;*/
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
 
-.text{
+/*.privacyText{
 	float: left;
-}
+}*/
 
 .footerLogo{
 	display: block;
@@ -173,15 +176,14 @@ ul li:hover ul li{
 }
 
 
-@media screen and (max-width: 740px){
+@media (max-width: 835px){
 	
-	.wrapper{
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	line-height: 1.25rem;
-	font-size: 1rem;
+	.privacyWrapper{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	line-height: 1.75rem;
+	font-size: 1.5rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
@@ -189,24 +191,31 @@ ul li:hover ul li{
 	grid-template-areas: 
 	"title1"  
 	"title2"
-	"meat"
+	"privacyMeat"
 	"line1"
 	"comments"
 	"line2"
 	"footLogo";
 	}
 	
-	.wrapper div{
+	.privacyWrapper div{
 	background-color: #fff;
 	color: black;
 	padding: 10px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	}
-
-	.text{
-	grid-area: meat;
+	.privacyText{
+		width: 90%;
 	}
-
+	.divideLine1{
+		width: 90%;
+	}
+	.divideLine2{
+		width: 90%;
+	}
+	.privacyText{
+	grid-area: privacyMeat;
+	}
 	.comments{
 	display: block;
 	margin-left: auto;
@@ -233,6 +242,75 @@ ul li:hover ul li{
 	background-color: #259adc;
 	}
 
+	@media (min-width: 836px) and (max-width: 1299px){
+	
+	.privacyWrapper{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	line-height: 1.75rem;
+	font-size: 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1px;
+	grid-template-rows: auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	"title1"  
+	"title2"
+	"privacyMeat"
+	"line1"
+	"comments"
+	"line2"
+	"footLogo";
+	}
+	
+	.privacyWrapper div{
+	background-color: #fff;
+	color: black;
+	padding: 10px;
+	font-size: 1.5rem;
+	}
+	.privacyText{
+		width: 90%;
+	}
+	.divideLine1{
+		width: 90%;
+	}
+	.divideLine2{
+		width: 90%;
+	}
+	.privacyText{
+	grid-area: privacyMeat;
+	}
+	.comments{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.divideLine1{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine1 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine2{
+	border: transparent;
+	border-width: 80%;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine2 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	
+	
+	
+	
 
 
 
