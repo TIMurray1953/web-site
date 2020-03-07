@@ -32,12 +32,12 @@ body{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto auto auto auto auto auto;
 	grid-template-areas: 
-	"title1 . title2"
-	"privacyMeat privacyMeat privacyMeat"
-	"line1 line1 line1"
-	"comments comments comments"
-	"line2 line2 line2"
-	" . footLogo .";
+	'title1 . title2'
+	'privacyMeat privacyMeat privacyMeat'
+	'line1 line1 line1'
+	'comments comments comments'
+	'line2 line2 line2'
+	' . footLogo . ';
 	}
 
 .coLogo{
@@ -139,8 +139,7 @@ ul li:hover ul li{
 }
 .footerLogo{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 .comments{
 	display: block;
@@ -207,6 +206,10 @@ ul li:hover ul li{
 	.privacyText{
 	grid-area: privacyMeat;
 	}
+	.footerLogo{
+	display: block;
+	margin: auto;
+}
 	.comments{
 	display: block;
 	margin-left: auto;
@@ -264,6 +267,10 @@ ul li:hover ul li{
 	.privacyText{
 		width: 80%;
 	}
+	.footerLogo{
+	display: block;
+	margin: auto;
+}
 	.divideLine1{
 		width: 90%;
 	}
