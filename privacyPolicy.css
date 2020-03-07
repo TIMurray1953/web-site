@@ -133,15 +133,9 @@ ul li:hover ul li{
 }
 
 .coLogo{
-	/*float: left;*/
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
-
-/*.privacyText{
-	float: left;
-}*/
-
 .footerLogo{
 	display: block;
 	margin-left: auto;
@@ -163,8 +157,6 @@ ul li:hover ul li{
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 .divideLine2{
 	border: transparent;
 	border-width: 80%;
@@ -174,8 +166,6 @@ ul li:hover ul li{
 	line-height: .5rem;
 	background-color: #259adc;
 }
-
-
 @media (max-width: 835px){
 	
 	.privacyWrapper{
@@ -205,7 +195,7 @@ ul li:hover ul li{
 	font-size: 1.5rem;
 	}
 	.privacyText{
-		width: 90%;
+		width: 80%;
 	}
 	.divideLine1{
 		width: 90%;
@@ -271,7 +261,7 @@ ul li:hover ul li{
 	font-size: 1.5rem;
 	}
 	.privacyText{
-		width: 90%;
+		width: 80%;
 	}
 	.divideLine1{
 		width: 90%;
