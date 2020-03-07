@@ -57,7 +57,7 @@ body{
 	grid-area: comments;
 	column-span: all;
 }
-.footerLogo{
+.privacyfooterLogo{
 	grid-area: footLogo;
 }
 .divideLine1{
@@ -137,7 +137,7 @@ ul li:hover ul li{
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
-.footerLogo{
+.privacyfooterLogo{
 	display: block;
 	margin: auto;
 }
@@ -206,7 +206,7 @@ ul li:hover ul li{
 	.privacyText{
 	grid-area: privacyMeat;
 	}
-	.footerLogo{
+	.privacyfooterLogo{
 	display: block;
 	margin: auto;
 }
@@ -267,7 +267,7 @@ ul li:hover ul li{
 	.privacyText{
 		width: 80%;
 	}
-	.footerLogo{
+	.privacyfooterLogo{
 	display: block;
 	margin: auto;
 }
