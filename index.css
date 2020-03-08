@@ -47,7 +47,7 @@ body{
 .menu{
 	grid-area: title2;
 }
-.wrapper .text{
+.text{
 	grid-area: text1;
 	column-span: all;
 }
@@ -76,6 +76,15 @@ body{
 }
 .footerLogo{
 	grid-area: footer4;
+}
+.text{
+	width: 80%;
+}
+.comments-email{
+	width:80%;
+}
+.theFooter{
+width: 80%;
 }
 .coLogo{
 	display: block;
@@ -159,7 +168,7 @@ ul li:hover ul li{
 }
 .divideLine{
 	border: transparent;
-	border-width: 80%;
+	border-width: 70%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine p{
@@ -168,7 +177,7 @@ ul li:hover ul li{
 }
 .divideLine2{
 	border: transparent;
-	border-width: 80%;
+	border-width: 70%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine2 p{
@@ -177,7 +186,7 @@ ul li:hover ul li{
 }
 .divideLine3{
 	border: transparent;
-	border-width: 80%;
+	border-width: 70%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine3 p{
@@ -214,8 +223,8 @@ color: black;
 padding: 10px;
 font-size: 1.5rem;
 }
-.wrapper .text{
-	width: 90%;
+.text{
+	width: 80%;
 }
 .theFooter{
 	width: 90%;
@@ -292,8 +301,8 @@ color: black;
 padding: 10px;
 font-size: 1.5rem;
 }
-.wrapper .text{
-	width: 90%;
+.text{
+	width: 80%;
 }
 .theFooter{
 	width: 90%;
