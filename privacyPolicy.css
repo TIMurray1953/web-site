@@ -89,13 +89,14 @@ ul{
 
 ul li{
 	float: left;
-	width: 150px;
-	height: 3em;
+	width: 230px;
+	height: 4em;
 	background-color: #259adc;
 	text-align: left;
 	font-size: 1rem;
-	padding: 10px 10px 10px 10px;
+	padding: 20px 10px 10px 20px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 ul li a{
@@ -112,7 +113,7 @@ ul li a:hover {
 }
 
 ul li ul li{
-	width: 220px;
+	width: 250px;
 	text-transform: none;
 	display: none;
 }
@@ -150,7 +151,6 @@ ul li:hover ul li{
 
 .divideLine1{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine1 p{
@@ -159,7 +159,6 @@ ul li:hover ul li{
 }
 .divideLine2{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine2 p{
@@ -198,10 +197,10 @@ ul li:hover ul li{
 		width: 80%;
 	}
 	.divideLine1{
-		width: 90%;
+		width: 80%;
 	}
 	.divideLine2{
-		width: 90%;
+		width: 80%;
 	}
 	.privacyText{
 	grid-area: privacyMeat;
@@ -218,7 +217,6 @@ ul li:hover ul li{
 
 	.divideLine1{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine1 p{
@@ -228,7 +226,6 @@ ul li:hover ul li{
 
 	.divideLine2{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine2 p{
@@ -272,10 +269,10 @@ ul li:hover ul li{
 	margin: auto;
 }
 	.divideLine1{
-		width: 90%;
+		width: 80%;
 	}
 	.divideLine2{
-		width: 90%;
+		width: 80%;
 	}
 	.privacyText{
 	grid-area: privacyMeat;
@@ -287,17 +284,14 @@ ul li:hover ul li{
 	}
 	.divideLine1{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine1 p{
 	line-height: .5rem;
 	background-color: #259adc;
 	}
-
 	.divideLine2{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine2 p{
