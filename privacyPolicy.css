@@ -142,6 +142,11 @@ ul li:hover ul li{
 	display: block;
 	margin: auto;
 }
+.privacyfooterLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 .comments{
 	display: block;
 	margin-left: auto;
@@ -208,7 +213,12 @@ ul li:hover ul li{
 	.privacyfooterLogo{
 	display: block;
 	margin: auto;
-}
+	}
+	.privacyfooterLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
 	.comments{
 	display: block;
 	margin-left: auto;
@@ -267,7 +277,12 @@ ul li:hover ul li{
 	.privacyfooterLogo{
 	display: block;
 	margin: auto;
-}
+	}
+	.privacyfooterLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
 	.divideLine1{
 		width: 80%;
 	}
