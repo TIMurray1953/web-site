@@ -334,6 +334,14 @@ ul li:hover ul li{
 	.apple_badge{
 	margin: auto;
 	}
+
+	.google_badge{
+	align-items: center;
+	}
+	.apple_badge{
+	align-items: center;
+	}
+
 	
 	.comments{
 	display: block;
@@ -495,6 +503,13 @@ ul li:hover ul li{
 	}
 	.apple_badge{
 	margin: auto;
+	}
+
+	.google_badge{
+	align-items: center;
+	}
+	.apple_badge{
+	align-items: center;
 	}
 	
 	.comments{
