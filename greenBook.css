@@ -310,8 +310,18 @@ ul li:hover ul li{
 	.text{
 	grid-area: meat;
 	}
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
 	.copyright{
 	grid-area: copyright;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 	.directButtons{
 	grid-area: directButtons;
@@ -483,6 +493,19 @@ ul li:hover ul li{
 
 	.text{
 	grid-area: meat;
+	}
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.copyright{
+	grid-area: copyright;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 	.copyright{
 	grid-area: copyright;
