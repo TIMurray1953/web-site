@@ -297,6 +297,30 @@ ul.c {
 	margin-right: auto;
 	}
 
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.apple_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+
+
+
+
 	.divideLine1{
 	border: transparent;
 	margin: 1rem 1rem 1rem 1rem;
@@ -403,6 +427,26 @@ ul.c {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	}
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.apple_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 
 	.divideLine1{
