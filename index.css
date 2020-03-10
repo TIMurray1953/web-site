@@ -105,7 +105,6 @@ ul{
 	padding: 0px;
 	list-style: none;
 }
-
 ul li{
 	float: left;
 	width: 230px;
@@ -265,8 +264,18 @@ font-size: 1.5rem;
 .facebook{
 	margin: auto;
 }
+.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 .footerLogo{
 	margin: auto;
+}
+.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 @media (min-width: 836px) and (max-width: 1299px){
@@ -307,8 +316,18 @@ font-size: 1.5rem;
 .facebook{
 	margin: auto;
 }
+.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 .footerLogo{
 	margin: auto;
+}
+.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 .divideLine{
 	width: 80%;
