@@ -334,6 +334,32 @@ ul li:hover ul li{
 	.apple_badge{
 	margin: auto;
 	}
+
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.google_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.apple_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
 	
 	.comments{
 	display: block;
@@ -503,6 +529,32 @@ ul li:hover ul li{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	}
+
+	.title_icon{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.google_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.apple_badge{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	}
+	.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 
 	.divideLine1{
