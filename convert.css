@@ -218,9 +218,6 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-}
-
-
 @media screen and (max-width: 835px){
 	
 	.wrapper{
@@ -348,7 +345,7 @@ ul li:hover ul li{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
-	grid-template-rows: auto auto 2rem auto 2rem auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto 2rem auto 2rem auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
 	'title1'  
 	'title2'
