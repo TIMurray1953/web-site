@@ -11,46 +11,49 @@ html{
 body{
 	background-color: #fff;
 	font-size: 1rem;
-	max-width: 1300px;
+	min-width: 1300px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 90%;
 }
 
 .minutesWrapper{
-	display: grid;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	padding-top: 50px;
 	padding-bottom: 100px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: black;
-	font-size: 1rem;
+	font-size: 1.75rem;
 	line-height: 2rem;
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto 2rem auto 4rem auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
-	"title1 . title2"
-	".appIcon. "
-	"SubHead . ."
-	"buttonIcon1 textSmall1 textSmall1"
-	"buttonIcon2 textSmall2 textSmall2"
-	"buttonIcon3 textSmall3 textSmall3"
-	"buttonIcon4 textSmall4 textSmall4"
-	"buttonIcon5 textSmall5 textSmall5"
-	"buttonIcon6 textSmall6 textSmall6"
-	"buttonIcon7 textSmall7 textSmall7"
-	"line1 line1 line1"
-	"direct direct direct"
-	"line2 line2 line2"
-	" google_badge . apple_badge"
-	"line3 line3 line3"
-	". facebook ."
-	"line4 line4 line4"
-	"comments comments comments"
-	"line5 line5 line5"
-	". footLogo .";
+	'title1 . title2'
+	'. appIcon .'
+	' . . . '
+	'SubHead . .'
+	' . . . '
+	'buttonIcon1 textSmall1 textSmall1'
+	'buttonIcon2 textSmall2 textSmall2'
+	'buttonIcon3 textSmall3 textSmall3'
+	'buttonIcon4 textSmall4 textSmall4'
+	'buttonIcon5 textSmall5 textSmall5'
+	'buttonIcon6 textSmall6 textSmall6'
+	'buttonIcon7 textSmall7 textSmall7'
+	'line1 line1 line1'
+	'direct direct direct'
+	'line2 line2 line2'
+	'google_badge . apple_badge'
+	'line4 line4 line4'
+	'. facebook .'
+	'line5 line5 line5'
+	'comments comments comments'
+	'line6 line6 line6'
+	'. footLogo .';
 	}
 
 
@@ -217,14 +220,12 @@ ul li:hover ul li{
 }
 
 .coLogo{
-	float: left;
 	padding: 10px 10px;
 	margin: 10px 10px;
 }
 
 .button_icon{
 	display: block;
-	float: left;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -268,7 +269,6 @@ ul li:hover ul li{
 
 .divideLine1{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine1 p{
@@ -276,10 +276,8 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-
 .divideLine2{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine2 p{
@@ -287,21 +285,8 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-
-.divideLine3{
-	border: transparent;
-	border-width: 80%;
-	margin: 1rem 1rem 1rem 1rem;
-}
-.divideLine3 p{
-	line-height: .5rem;
-	background-color: #259adc;
-}
-
-
 .divideLine4{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine4 p{
@@ -309,10 +294,8 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-
 .divideLine5{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 }
 .divideLine5 p{
@@ -320,56 +303,66 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
+.divideLine6{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine6 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
 
-@media screen and (max-width: 740px){
+
+@media screen and (max-width: 835px){
 	
 	.minutesWrapper{
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	line-height: 1.25rem;
-	font-size: 1rem;
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	line-height: 1.75rem;
+	font-size: 1.5rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto 2rem auto 2rem auto 4rem auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
-	"title1"  
-	"title2"
-	"appIcon"
-	"SubHead"
-	"buttonIcon1" 
-	"textSmall1"
-	"buttonIcon2" 
-	"textSmall2"
-	"buttonIcon3" 
-	"textSmall3"
-	"buttonIcon4" 
-	"textSmall4"
-	"buttonIcon5" 
-	"textSmall5"
-	"buttonIcon6" 
-	"textSmall6"
-	"buttonIcon7" 
-	"textSmall7"
-	"line1"
-	"direct"
-	"line2"
-	"store_badge_google"
-	"line6"
-	"store_badge_apple"
-	"line3"
-	"facebook"
-	"line4"
-	"comments"
-	"line5"
-	"footLogo";
+	'title1'  
+	'title2'
+	' . '
+	'appIcon'
+	' . '
+	'SubHead'
+	' . '
+	'buttonIcon1' 
+	'textSmall1'
+	'buttonIcon2' 
+	'textSmall2'
+	'buttonIcon3' 
+	'textSmall3'
+	'buttonIcon4' 
+	'textSmall4'
+	'buttonIcon5' 
+	'textSmall5'
+	'buttonIcon6' 
+	'textSmall6'
+	'buttonIcon7' 
+	'textSmall7'
+	'line1'
+	'direct'
+	'line2'
+	'store_badge_google'
+	'line3'
+	'store_badge_apple'
+	'line4'
+	'facebook'
+	'line5'
+	'comments'
+	'line6'
+	'footLogo';
 	}
 	
-	.divideLine6{
-	grid-area: line6;
-	column-span: 1 / span 3;
+	.divideLine3{
+	grid-area: line3;
 	}
 
 
@@ -377,51 +370,51 @@ ul li:hover ul li{
 	background-color: #fff;
 	color: black;
 	padding: 10px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	}
 
-.button_icon1{
-grid-area: buttonIcon1;
-}
-.small_text1{
-	grid-area: textSmall1;
-}
-.button_icon2{
-	grid-area: buttonIcon2;
-}
-.small_text2{
-	grid-area: textSmall2;
-}
-.button_icon3{
-	grid-area: buttonIcon3;
-}
-.small_text3{
-	grid-area: textSmall3;
-}
-.button_icon4{
-	grid-area: buttonIcon4;
-}
-.small_text4{
-	grid-area: textSmall4;
-}
-.button_icon5{
-	grid-area: buttonIcon5;
-}
-.small_text5{
-	grid-area: textSmall5;
-}
-.button_icon6{
-	grid-area: buttonIcon6;
-}
-.small_text6{
-	grid-area: textSmall6;
-}
-.button_icon7{
-	grid-area: buttonIcon7;
-}
-.small_text7{
-	grid-area: textSmall7;
-}
+	.button_icon1{
+	grid-area: buttonIcon1;
+	}
+	.small_text1{
+		grid-area: textSmall1;
+	}
+	.button_icon2{
+		grid-area: buttonIcon2;
+	}
+	.small_text2{
+		grid-area: textSmall2;
+	}
+	.button_icon3{
+		grid-area: buttonIcon3;
+	}
+	.small_text3{
+		grid-area: textSmall3;
+	}
+	.button_icon4{
+		grid-area: buttonIcon4;
+	}
+	.small_text4{
+		grid-area: textSmall4;
+	}
+	.button_icon5{
+		grid-area: buttonIcon5;
+	}
+	.small_text5{
+		grid-area: textSmall5;
+	}
+	.button_icon6{
+		grid-area: buttonIcon6;
+	}
+	.small_text6{
+		grid-area: textSmall6;
+	}
+	.button_icon7{
+		grid-area: buttonIcon7;
+	}
+	.small_text7{
+		grid-area: textSmall7;
+	}
 
 	.direct{
 	grid-area: direct;
@@ -447,7 +440,6 @@ grid-area: buttonIcon1;
 
 	.divideLine1{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine1 p{
@@ -457,7 +449,6 @@ grid-area: buttonIcon1;
 
 	.divideLine2{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine2 p{
@@ -467,7 +458,6 @@ grid-area: buttonIcon1;
 
 	.divideLine3{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine3 p{
@@ -477,7 +467,6 @@ grid-area: buttonIcon1;
 
 	.divideLine4{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine4 p{
@@ -486,7 +475,6 @@ grid-area: buttonIcon1;
 	}
 	.divideLine5{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine5 p{
@@ -496,12 +484,281 @@ grid-area: buttonIcon1;
 
 	.divideLine6{
 	border: transparent;
-	border-width: 80%;
 	margin: 1rem 1rem 1rem 1rem;
 	}
 	.divideLine6 p{
 	line-height: .5rem;
 	background-color: #259adc;
+	}
+
+	.small_text1{
+		width: 80%;
+	}
+	.small_text2{
+		width: 80%;
+	}
+	.small_text3{
+		width: 80%;
+	}
+	.small_text4{
+		width: 80%;
+	}
+	.small_text5{
+		width: 80%;
+	}
+	.small_text6{
+		width: 80%;
+	}
+	.small_text7{
+		width: 80%;
+	}
+
+	.direct{
+		width: 80%;
+	}
+
+	.divideLine1{
+		width: 80%;
+	}
+	.divideLine2{
+		width: 80%;
+	}
+	.divideLine3{
+		width: 80%;
+	}
+	.divideLine4{
+		width: 80%;
+	}
+	.divideLine5{
+		width: 80%;
+	}
+	.divideLine6{
+		width: 80%;
+	}
+
+}
+
+@media (min-width: 836px) and (max-width: 1299px){
+
+	.minutesWrapper{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	line-height: 1.75rem;
+	font-size: 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1px;
+	grid-template-rows: auto auto 2rem auto 2rem auto 4rem auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	'title1'  
+	'title2'
+	' . '
+	'appIcon'
+	' . '
+	'SubHead'
+	' . '
+	'buttonIcon1' 
+	'textSmall1'
+	'buttonIcon2' 
+	'textSmall2'
+	'buttonIcon3' 
+	'textSmall3'
+	'buttonIcon4' 
+	'textSmall4'
+	'buttonIcon5' 
+	'textSmall5'
+	'buttonIcon6' 
+	'textSmall6'
+	'buttonIcon7' 
+	'textSmall7'
+	'line1'
+	'direct'
+	'line2'
+	'store_badge_google'
+	'line3'
+	'store_badge_apple'
+	'line4'
+	'facebook'
+	'line5'
+	'comments'
+	'line6'
+	'footLogo';
+	}
+	
+	.divideLine3{
+	grid-area: line3;
+	}
+
+
+	.minutesWrapper div{
+	background-color: #fff;
+	color: black;
+	padding: 10px;
+	font-size: 1.5rem;
+	}
+
+	.button_icon1{
+	grid-area: buttonIcon1;
+	}
+	.small_text1{
+		grid-area: textSmall1;
+	}
+	.button_icon2{
+		grid-area: buttonIcon2;
+	}
+	.small_text2{
+		grid-area: textSmall2;
+	}
+	.button_icon3{
+		grid-area: buttonIcon3;
+	}
+	.small_text3{
+		grid-area: textSmall3;
+	}
+	.button_icon4{
+		grid-area: buttonIcon4;
+	}
+	.small_text4{
+		grid-area: textSmall4;
+	}
+	.button_icon5{
+		grid-area: buttonIcon5;
+	}
+	.small_text5{
+		grid-area: textSmall5;
+	}
+	.button_icon6{
+		grid-area: buttonIcon6;
+	}
+	.small_text6{
+		grid-area: textSmall6;
+	}
+	.button_icon7{
+		grid-area: buttonIcon7;
+	}
+	.small_text7{
+		grid-area: textSmall7;
+	}
+
+	.direct{
+	grid-area: direct;
+	}
+	.google_badge{
+	grid-area: store_badge_google;
+	}
+	.apple_badge{
+	grid-area: store_badge_apple;
+	}
+	.google_badge{
+	padding: auto;
+	}
+	.apple_badge{
+	padding: auto;
+	}
+	
+	.comments{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.divideLine1{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine1 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine2{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine2 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine3{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine3 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine4{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine4 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+	.divideLine5{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine5 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.divideLine6{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+	}
+	.divideLine6 p{
+	line-height: .5rem;
+	background-color: #259adc;
+	}
+
+	.small_text1{
+		width: 80%;
+	}
+	.small_text2{
+		width: 80%;
+	}
+	.small_text3{
+		width: 80%;
+	}
+	.small_text4{
+		width: 80%;
+	}
+	.small_text5{
+		width: 80%;
+	}
+	.small_text6{
+		width: 80%;
+	}
+	.small_text7{
+		width: 80%;
+	}
+
+	.direct{
+		width: 80%;
+	}
+
+	.divideLine1{
+		width: 80%;
+	}
+	.divideLine2{
+		width: 80%;
+	}
+	.divideLine3{
+		width: 80%;
+	}
+	.divideLine4{
+		width: 80%;
+	}
+	.divideLine5{
+		width: 80%;
+	}
+	.divideLine6{
+		width: 80%;
 	}
 
 }
