@@ -336,10 +336,14 @@ ul li:hover ul li{
 	}
 
 	.google_badge{
-	align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 	.apple_badge{
-	align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 
 	
@@ -506,10 +510,14 @@ ul li:hover ul li{
 	}
 
 	.google_badge{
-	align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 	.apple_badge{
-	align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 	}
 	
 	.comments{
