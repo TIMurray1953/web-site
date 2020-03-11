@@ -30,9 +30,10 @@ body{
 	line-height: 2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto 4rem auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
 	'logo . title2'
+	' . . . '
 	'text1 text1 text1'
 	'line line line'
 	'footer1 footer1 footer1'
@@ -203,10 +204,11 @@ ul li:hover ul li{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto 4rem auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
 	'logo' 
 	'title2'
+	' . '
 	'text1'
 	'line' 
 	'footer1'
@@ -288,10 +290,11 @@ font-size: 1.5rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1px;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto 4rem auto auto auto auto auto auto auto auto;
 	grid-template-areas: 
 	'logo' 
 	'title2'
+	' . '
 	'text1'
 	'line' 
 	'footer1'
