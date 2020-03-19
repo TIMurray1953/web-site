@@ -194,91 +194,7 @@ ul li:hover ul li{
 	background-color: #259adc;
 }
 
-@media (max-width: 835px){
-	.wrapper{
-	width: 90%;
-	margin: auto;
-	padding: 20px;
-	line-height: 1.75rem;
-	font-size: 1.5rem;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 1px;
-	grid-template-rows: auto auto 4rem auto auto auto auto auto auto auto auto;
-	grid-template-areas: 
-	'logo' 
-	'title2'
-	' . '
-	'text1'
-	'line' 
-	'footer1'
-	'line2'
-	'footer2'
-	'line3'
-	'footer3'
-	'footer4';
-	}
-.wrapper{
-background-color: #fff;
-color: black;
-padding: 10px;
-font-size: 1.5rem;
-}
-.text{
-	width: 80%;
-}
-.theFooter{
-	width: 80%;
-}
-.divideLine{
-	width: 80%;
-}
-.divideLine2{
-	width: 80%;
-}
-.divideLine3{
-	width: 80%;
-}
-.divideLine{
-	border: transparent;
-	margin: 1rem 1rem 1rem 1rem;
-}
-.divideLine p{
-	line-height: .5rem;
-	background-color: #259adc;
-}
-.divideLine2{
-	border: transparent;
-	margin: 1rem 1rem 1rem 1rem;
-}
-.divideLine2 p{
-	line-height: .5rem;
-	background-color: #259adc;
-}
-.divideLine3{
-	border: transparent;
-	margin: 1rem 1rem 1rem 1rem;
-}
-.divideLine3 p{
-	line-height: .5rem;
-	background-color: #259adc;
-}
-.facebook{
-	margin: auto;
-}
-.facebook{
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-}
-.footerLogo{
-	margin: auto;
-}
-.footerLogo{
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-}
+
 
 @media (min-width: 836px) and (max-width: 1299px){
 	.wrapper{
@@ -367,7 +283,92 @@ font-size: 1.5rem;
 }
 }
 
-
+@media (max-width: 835px){
+	.wrapper{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	line-height: 1.75rem;
+	font-size: 1.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1px;
+	grid-template-rows: auto auto 4rem auto auto auto auto auto auto auto auto;
+	grid-template-areas: 
+	'logo' 
+	'title2'
+	' . '
+	'text1'
+	'line' 
+	'footer1'
+	'line2'
+	'footer2'
+	'line3'
+	'footer3'
+	'footer4';
+	}
+.wrapper{
+background-color: #fff;
+color: black;
+padding: 10px;
+font-size: 1.5rem;
+}
+.text{
+	width: 80%;
+}
+.theFooter{
+	width: 80%;
+}
+.divideLine{
+	width: 80%;
+}
+.divideLine2{
+	width: 80%;
+}
+.divideLine3{
+	width: 80%;
+}
+.divideLine{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+.divideLine2{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine2 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+.divideLine3{
+	border: transparent;
+	margin: 1rem 1rem 1rem 1rem;
+}
+.divideLine3 p{
+	line-height: .5rem;
+	background-color: #259adc;
+}
+.facebook{
+	margin: auto;
+}
+.facebook{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.footerLogo{
+	margin: auto;
+}
+.footerLogo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+}
 
 
 
